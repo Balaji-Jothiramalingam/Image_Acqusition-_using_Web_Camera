@@ -2,6 +2,7 @@
 ## Aim:
  
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
+
 i) Write the frame as JPG 
 ii) Display the video 
 iii) Display the video by resizing the window
@@ -26,7 +27,7 @@ End the program and close the output video window by pressing 'q'
 ``` Python
 ### Developed By:BALAJI J
 ### Register No:212221243001
-
+```
 ## i) Write the frame as JPG file
 
 ```
@@ -38,7 +39,7 @@ cv2.imwrite("webcam_img.jpg",frame)
 
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
-``
+```
 
 
 ## ii) Display the video
